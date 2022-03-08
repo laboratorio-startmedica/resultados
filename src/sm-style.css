@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/01/2021, 11:09:56 AM
+    Author     : mavegac
+*/
+
+@font-face {
+    font-family: 'HelveticaNeue35thin';
+
+    src: url('fonts/helvetica-neue35thin.eot');
+    src: url('fonts/helvetica-neue35thin.eot?#iefix') format('embedded-opentype'), url('fonts/helvetica-neue35thin.woff') format('woff'), url('fonts/helvetica-neue35thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+
+    src: url('fonts/helvetica-neue-light.eot');
+    src: url('fonts/helvetica-neue-light.eot?#iefix') format('embedded-opentype'), url('fonts/helvetica-neue-light.woff') format('woff'), url('fonts/helvetica-neue-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'HelveticaNeue85bold';
+
+    src: url('fonts/helvetica-neue85bold.eot');
+    src: url('fonts/helvetica-neue85bold.eot?#iefix') format('embedded-opentype'), url('fonts/helvetica-neue85bold.woff') format('woff'), url('fonts/helvetica-neue85bold.ttf') format('truetype');
+}
+
+body{
+    font-family: HelveticaNeue !important;   
+}
+
+.footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: #A7A9AB;
+    color: white;
+}
+
+.grey-space {
+    margin: 0;
+    background: #9a9799;
+    padding: 0.9em;
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: right;
+    background-image: linear-gradient(to right, #9a9799 , #77777a);
+    /*background-image: linear-gradient(to right, rgba(154,151,153,0), rgba(154,151,153,1));*/
+}
+
+.slogan-space-manager {
+    width: 140px;
+    height: auto;
+    margin-right: 1.9em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+#adn {
+    width: 100%;
+    height: 10px;
+    margin-top: 0px;
+}
+
+.form-control {
+    color: #4b4e53 !important;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+    padding: 0px 6px;
+    height: 30px;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+}
+
+.container-sm {
+    position: relative;
+    min-height: 90.5vh;
+}
+
+.contenedorTerminos {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*        p.tituloMedio:first-child {
+            margin-top: 0;
+        }*/
+
+p.tituloMedio {
+    font-size: 20px;
+    color: #3a3e43 !important;
+    font-weight: 400;
+    margin: 0px auto;
+    margin-top: 30px;
+    font-family: HelveticaNeue !important;
+}
+
+p.regularTexto {
+    font-size: 16px;
+    color: #3a3e43 !important;
+    margin: 0px auto;
+    text-align: justify;
+    font-family: HelveticaNeue !important;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: lighter !important;
+}
