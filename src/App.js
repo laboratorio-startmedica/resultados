@@ -63,7 +63,7 @@ function App() {
                   <div className="contenedorTerminos">
                     <p className="tituloMedio">INSTRUCCIONES</p>
                     <p className="regularTexto">
-                      <a id="lnkManual" href="files/Instrucciones_uso_Mylab.pdf" target="_blank" style={{ fontFamily: "HelveticaNeue" }}>Clic aqui para ver instructivo</a>
+                      <a id="lnkManual" href="/resultados/Instrucciones_uso_Mylab.pdf" target="_blank" style={{ fontFamily: "HelveticaNeue" }}>Clic aqui para ver instructivo</a>
                     </p>
                   </div>
                 </div>
@@ -81,16 +81,16 @@ function App() {
                   <label htmlFor="chkAvsPriv" style={{ float: 'left' }}>&nbsp;&nbsp;Conozco y acepto del Aviso de privacidad</label>
                 </div>
               </div>
-              <div className="row">
+              <div className='row'>
                 <div style={{ padding: "0 0 0 20px" }}>
-                  <label htmlFor="asdasd" style={{ float: 'left' }}>&nbsp;&nbsp;Ingrese el token del resultado: </label>
-                  <input id="asdasd" type="text" style={{ float: 'left' }} onChange={(e) => {
+                  <label htmlFor="asdasd">&nbsp;&nbsp;Ingrese el token del resultado: </label>
+                  <input style={{ marginLeft: '10px' }} id="asdasd" type="text" onChange={(e) => {
                     setToken(e.target.value);
                   }} />
                 </div>
               </div>
               <div className="row">
-                <div className="col-12">
+                <div className="col-12" style={{ marginTop: '10px' }}>
                   <button type="button" className="btn btn-primary" id="btn-acepta" onClick={() => {
                     if (token === 'MA04322615' || token === 'MA09125719')
                       setShowForm(true)
@@ -99,18 +99,18 @@ function App() {
               </div>
             </div>
           </div>
-        <footer className="footer">
-          <div className="grey-space">
-            <img src="img/espacio-humano.png" className="slogan-space-manager" alt="" />
-          </div>
-        </footer>
+          <footer className="footer">
+            <div className="grey-space">
+              <img src="img/espacio-humano.png" className="slogan-space-manager" alt="" />
+            </div>
+          </footer>
         </>
       }
       {
         showForm &&
         <Resultado id={token} />
       }
-      
+
 
     </div>
   );
