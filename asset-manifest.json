@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/resultados/static/css/main.18e2a019.css",
+    "main.js": "/resultados/static/js/main.e0590f14.js",
+    "static/js/787.50c07b4e.chunk.js": "/resultados/static/js/787.50c07b4e.chunk.js",
+    "static/media/helvetica-neue-light.eot": "/resultados/static/media/helvetica-neue-light.cb13d417479c343f6215.eot",
+    "static/media/helvetica-neue-light.ttf": "/resultados/static/media/helvetica-neue-light.f1279b7b3457c18f9f82.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/resultados/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/helvetica-neue-light.woff": "/resultados/static/media/helvetica-neue-light.df6feede2a37f6f50859.woff",
+    "static/media/glyphicons-halflings-regular.ttf": "/resultados/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/helvetica-neue35thin.eot": "/resultados/static/media/helvetica-neue35thin.742257cfc4ce3a3b39f4.eot",
+    "static/media/helvetica-neue35thin.ttf": "/resultados/static/media/helvetica-neue35thin.41be8567c4d2c04fffb9.ttf",
+    "static/media/helvetica-neue85bold.eot": "/resultados/static/media/helvetica-neue85bold.c52943b9d4c44f375f20.eot",
+    "static/media/helvetica-neue85bold.woff": "/resultados/static/media/helvetica-neue85bold.45633ba3105f32232f20.woff",
+    "static/media/helvetica-neue85bold.ttf": "/resultados/static/media/helvetica-neue85bold.dd92c03907b96a4f0c1c.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/resultados/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/resultados/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/resultados/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/helvetica-neue35thin.woff": "/resultados/static/media/helvetica-neue35thin.bfab645843b86c2959ce.woff",
+    "index.html": "/resultados/index.html",
+    "main.18e2a019.css.map": "/resultados/static/css/main.18e2a019.css.map",
+    "main.e0590f14.js.map": "/resultados/static/js/main.e0590f14.js.map",
+    "787.50c07b4e.chunk.js.map": "/resultados/static/js/787.50c07b4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18e2a019.css",
+    "static/js/main.e0590f14.js"
+  ]
+}
