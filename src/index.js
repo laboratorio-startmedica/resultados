@@ -2,17 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Resultado from './Resultado';
 ReactDOM.render(
-  <BrowserRouter>
-
-    <Routes>
-      <Route path="/:id" element={<App />} />
-      <Route path="/token/:id" element={<Resultado />} />
-    </Routes>
-  </BrowserRouter>,
+  <App />,
   document.getElementById('root')
 );
 
